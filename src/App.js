@@ -6,7 +6,7 @@ import Tour from "./pages/Tour";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/map-tour'>
       <SearchAppBar />
       <Routes>
         <Route path='/' element={<Home />} />  
